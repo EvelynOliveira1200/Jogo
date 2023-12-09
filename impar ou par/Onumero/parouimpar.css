@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+h1{
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+    font-size: 3rem;
+}
+label{
+    display: block;
+    padding: 5px 0;
+}
+input[type="button"]{
+    padding: 5px;
+    margin: 20px;
+    width: 12.7em;
+
+}
+.btnOculto{
+    display: none;
+
+}
+.exibe{
+    display: inline;
+}
+h3{
+    margin: 10px;
+}
